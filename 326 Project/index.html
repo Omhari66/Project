@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3dcbbaa212.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+      
+            <nav>
+            
+                <img src="personal-portfolio-img/images/logoo.png" height="107" width="243" class="logoo">
+                             
+                <ul id="sidemenu">
+                    <li><a href="#header"><span>Home</span></a></li>
+                    <li><a href="about.html"><span>About</span></a></li>
+                    <li><a href="services.html"><span>Services</span></a></li>
+                    <li><a href="portfolio.html"><span>Portfolio</span></a></li>
+                    <li><a href="contact.html"><span>Contact</span></a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                
+               
+            </nav>
+            <div class="header-text">
+               
+                <h1>Hello, my name is <span>Om Hari</span> </h1>
+                <h2>I'm a <span class="typing">UI/UX Designer</span></h2>
+               
+               
+            </div>
+        </div>  
+    </div>
+    <!-- ----------------about----------------------------------- -->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"> 
+                    <img src="personal-portfolio-img/images/my img.jpg" >
+                </div>
+                <div class="about-col-2"> 
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I’m Om Hari Shukla, a passionate Web Designer with a knack for creating visually appealing and user-centered websites and mobile apps. I thrive on blending creativity with technical expertise to bring ideas to life in the digital space.
+
+                        With experience in UI/UX design, responsive layouts, and accessibility best practices, I design interfaces that don’t just look good but also provide a smooth, enjoyable experience for users. I believe that every project, big or small, is an opportunity to create something unique that connects with people on a deeper level. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces </li>
+                            <li><span>Web Development</span><br>Designing Web Development </li>
+                            <li><span>App Development</span><br>Building Android/ios Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2024-Current</span><br>UI/UX Design Training at tokio Institute </li>
+                            <li><span>2022-2024</span><br>Team lead at StarApp LLC </li>
+                            <li><span>2020-2022</span><br>Internship at ekart eCommerce</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
+                            <li><span>2018</span><br>M.Tech from IIT kanpur </li>
+                            <li><span>2016</span><br>B.Tech from Lovely Professional University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------Services---------- -->
+     <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Responsive Design,User-Centered Design, HTML, CSS, JavaScript Proficiency, UI/UX Expertise, Adobe XD, Figma, Sketch, SEO Optimization , Accessibility-First Approach, Cross-Browser Compatibility . </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p> Focusing on seamless user experiences with clean, intuitive interfaces.Crafting designs that look and work great on any device, ensuring a consistent experience.Designing with inclusivity in mind, making sure interfaces are usable for everyone.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>User-Centered Mobile Design,Interactive Prototyping , Designing for iOS and Android with platform-specific guidelines while maintaining a unified brand experience.Accessibility in Mobile, Data-Driven Design . </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- --------------------PORTFOLIO------------- -->
+      <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="personal-portfolio-img/images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p><h5> Key Features:</h5>
+
+                            <ul><li>User-centered layout for profiles, feeds, and notifications</li>
+                            <li>Consistent and clear visual hierarchy for easy navigation</li>
+                            <li>Responsive design with adaptive mobile and desktop layouts</li></ul> </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="personal-portfolio-img/images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p><h5> Key Features:</h5>
+
+                            <ul><li>Visually engaging player with easy access to playlists, albums, and favorites</li>
+                            <li>Personalized recommendations for music discovery</li>
+                            <li>Interactive animations and transitions to enhance the listening experience</li></ul> </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="personal-portfolio-img/images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p><h5> Key Features:</h5>
+
+                            <ul><li>Intuitive navigation with categories, filters, and search options</li>
+                            <li>Streamlined checkout with multiple payment methods</li>
+                            <li>Consistent branding and style for a cohesive shopping experience across devices</li></ul> </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+            <a href="hireme.html"target="_blank"class="btn btn3">Hire Me</a>
+            
+        </div>
+    </div>
+    <!-- ----------------CONTACT--------------     -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <h3>I'm very responsive at messages</h3>
+                    <p> <i class="fa-solid fa-paper-plane"></i> <strong>omharishukla66@gmail.com</strong></p>
+                    <p><i class="fa-solid fa-square-phone"></i> <strong>9005923222</strong></p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/omhari.shukla.315/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/om_hari_shukla/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/om-hari-shukla-5a1b742b3/"><i class="fa-brands fa-linkedin"></i><a>
+                        <a href="https://x.com/OmhariShukla4"><i class="fa-brands fa-x-twitter"></i><a>
+                    </div>
+                    <a href="personal-portfolio-img/images/my-cv.pdf" download class="btn btn2">Donwnload CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><b>Copyright @ 2024 <i class="fa-solid fa-heart"> </i>  All Right Reserved by Om Hari.</b></p>
+
+        </div>
+     </div>
+      
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-links");
+        }
+    
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxsfHC8Ei0Dp2Y1uEtAXeshlUWGzQ19yiYZlCGKaScoScdb8Hiby9IAttGvAZMkEMk/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully" 
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <!-- -------------------typing animation-------------------- -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    var typed = new Typed(".typing",{
+        strings:["","UI/UX Designer"],
+        typeSpeed:100,
+        BackSpeed:30,
+        loop:true
+    })
+  </script>
+</body>
+</html>
+
+
+
+
+
+
